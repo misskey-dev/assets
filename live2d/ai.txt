@@ -1,0 +1,7 @@
+ai.psd          live2Dで使った画像データ
+
+ai.cmo3         モデルデータ
+
+ai_exp.can3     表情のモーション
+ai_mtn.can3     動きのモーション
+AiArt.can3      #AiArt で投稿した映像のモーション
