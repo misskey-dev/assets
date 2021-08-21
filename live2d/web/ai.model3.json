@@ -1,0 +1,108 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "ai.moc3",
+		"Textures": [
+			"ai.4096/texture_00.png"
+		],
+		"Physics": "ai.physics3.json",
+		"Pose": "ai.pose3.json",
+		"DisplayInfo": "ai.cdi3.json",
+		"Expressions": [
+			{
+				"File": "exp_01.exp3.json"
+			},
+			{
+				"Name": "exp_02",
+				"File": "exp_02.exp3.json"
+			},
+			{
+				"Name": "exp_03",
+				"File": "exp_03.exp3.json"
+			},
+			{
+				"Name": "exp_04",
+				"File": "exp_04.exp3.json"
+			},
+			{
+				"Name": "exp_05",
+				"File": "exp_05.exp3.json"
+			},
+			{
+				"Name": "exp_06",
+				"File": "exp_06.exp3.json"
+			},
+			{
+				"Name": "exp_07",
+				"File": "exp_07.exp3.json"
+			},
+			{
+				"Name": "exp_08",
+				"File": "exp_08.exp3.json"
+			},
+			{
+				"Name": "exp_09",
+				"File": "exp_09.exp3.json"
+			},
+			{
+				"Name": "exp_10",
+				"File": "exp_10.exp3.json"
+			},
+			{
+				"Name": "exp_11",
+				"File": "exp_11.exp3.json"
+			},
+			{
+				"Name": "exp_12",
+				"File": "exp_12.exp3.json"
+			},
+			{
+				"Name": "exp_13",
+				"File": "exp_13.exp3.json"
+			},
+			{
+				"Name": "exp_14",
+				"File": "exp_14.exp3.json"
+			},
+			{
+				"Name": "exp_15",
+				"File": "exp_15.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "motion/mtn/mtn_01.motion3.json"
+				},
+				{
+					"File": "motion/mtn/mtn_02.motion3.json"
+				},
+				{
+					"File": "motion/mtn/mtn_03.motion3.json"
+				},
+				{
+					"File": "motion/mtn/mtn_04.motion3.json"
+				},
+				{
+					"File": "motions/AiArt.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeROpen",
+				"ParamEyeLOpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
