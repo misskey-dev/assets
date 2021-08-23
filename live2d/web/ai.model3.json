@@ -6,85 +6,108 @@
 			"ai.4096/texture_00.png"
 		],
 		"Physics": "ai.physics3.json",
-		"Pose": "ai.pose3.json",
 		"DisplayInfo": "ai.cdi3.json",
 		"Expressions": [
 			{
-				"File": "exp_01.exp3.json"
+				"Name": "exp_01",
+				"File": "expressions/exp_01.exp3.json"
 			},
 			{
 				"Name": "exp_02",
-				"File": "exp_02.exp3.json"
+				"File": "expressions/exp_02.exp3.json"
 			},
 			{
 				"Name": "exp_03",
-				"File": "exp_03.exp3.json"
+				"File": "expressions/exp_03.exp3.json"
 			},
 			{
 				"Name": "exp_04",
-				"File": "exp_04.exp3.json"
+				"File": "expressions/exp_04.exp3.json"
 			},
 			{
 				"Name": "exp_05",
-				"File": "exp_05.exp3.json"
+				"File": "expressions/exp_05.exp3.json"
 			},
 			{
 				"Name": "exp_06",
-				"File": "exp_06.exp3.json"
+				"File": "expressions/exp_06.exp3.json"
 			},
 			{
 				"Name": "exp_07",
-				"File": "exp_07.exp3.json"
+				"File": "expressions/exp_07.exp3.json"
 			},
 			{
 				"Name": "exp_08",
-				"File": "exp_08.exp3.json"
+				"File": "expressions/exp_08.exp3.json"
 			},
 			{
 				"Name": "exp_09",
-				"File": "exp_09.exp3.json"
+				"File": "expressions/exp_09.exp3.json"
 			},
 			{
 				"Name": "exp_10",
-				"File": "exp_10.exp3.json"
+				"File": "expressions/exp_10.exp3.json"
 			},
 			{
 				"Name": "exp_11",
-				"File": "exp_11.exp3.json"
+				"File": "expressions/exp_11.exp3.json"
 			},
 			{
 				"Name": "exp_12",
-				"File": "exp_12.exp3.json"
+				"File": "expressions/exp_12.exp3.json"
 			},
 			{
 				"Name": "exp_13",
-				"File": "exp_13.exp3.json"
+				"File": "expressions/exp_13.exp3.json"
 			},
 			{
 				"Name": "exp_14",
-				"File": "exp_14.exp3.json"
+				"File": "expressions/exp_14.exp3.json"
 			},
 			{
 				"Name": "exp_15",
-				"File": "exp_15.exp3.json"
+				"File": "expressions/exp_15.exp3.json"
+			},
+			{
+				"Name": "exp_16",
+				"File": "expressions/exp_16.exp3.json"
+			},
+			{
+				"Name": "exp_17",
+				"File": "expressions/exp_17.exp3.json"
+			},
+			{
+				"Name": "exp_18",
+				"File": "expressions/exp_18.exp3.json"
+			},
+			{
+				"Name": "exp_19",
+				"File": "expressions/exp_19.exp3.json"
+			},
+			{
+				"Name": "exp_20",
+				"File": "expressions/exp_20.exp3.json"
 			}
 		],
 		"Motions": {
-			"": [
-				{
-					"File": "motion/mtn/mtn_01.motion3.json"
-				},
-				{
-					"File": "motion/mtn/mtn_02.motion3.json"
-				},
-				{
-					"File": "motion/mtn/mtn_03.motion3.json"
-				},
-				{
-					"File": "motion/mtn/mtn_04.motion3.json"
-				},
+			"Idle": [
 				{
 					"File": "motions/AiArt.motion3.json"
+				},
+				{
+					"File": "motions/mtn_01.motion3.json"
+				},
+				{
+					"File": "motions/mtn_02.motion3.json"
+				},
+				{
+					"File": "motions/mtn_03.motion3.json"
+				},
+				{
+					"File": "motions/mtn_04.motion3.json"
+				},
+				{
+					"File": "motions/mtn_05.motion3.json"
 				}
 			]
 		}
@@ -92,17 +115,42 @@
 	"Groups": [
 		{
 			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
 			"Name": "EyeBlink",
 			"Ids": [
 				"ParamEyeROpen",
 				"ParamEyeLOpen"
 			]
-		},
-		{
-			"Target": "Parameter",
-			"Name": "LipSync",
-			"Ids": []
 		}
 	],
-	"HitAreas": []
+	"HitAreas": [
+		{
+			"Id": "HitArea_Body",
+			"Name": "Body"
+		},
+		{
+			"Id": "HitArea_Boob",
+			"Name": "Boob"
+		},
+		{
+			"Id": "HitArea_Crotch",
+			"Name": "Crotch"
+		},
+		{
+			"Id": "HitArea",
+			"Name": "RightEar"
+		},
+		{
+			"Id": "HitArea2",
+			"Name": "LeftEar"
+		},
+		{
+			"Id": "HitArea_Head",
+			"Name": "Head"
+		}
+	]
 }
